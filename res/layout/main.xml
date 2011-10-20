@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/textView1" android:text="@string/choix" android:textSize="20sp">
+    </TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/gps" android:text="@string/gps" android:layout_width="fill_parent"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/cellid" android:text="@string/cellid" android:layout_width="fill_parent"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/wifi" android:text="@string/wifi" android:layout_width="fill_parent"></Button>
+    <Button android:id="@+id/network" android:text="@string/network" android:layout_height="wrap_content" android:layout_width="fill_parent"></Button>
+    
+	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20sp" android:id="@+id/txtFoundData" android:text="@string/resultats"></TextView>
+    <TextView android:id="@+id/txtResultData" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pasresultat"></TextView>
+    
+
+	<ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/loadingBar" android:layout_gravity="center"></ProgressBar>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:id="@+id/txtLoadingBar" android:text="@string/wait"></TextView>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="5dip" android:id="@+id/btnCancel" android:text="@string/cancel"></Button>
+</LinearLayout>

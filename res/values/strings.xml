@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeolocationApp</string>
+    <string name="choix">Géolocaliser</string>
+    <string name="gps">GPS</string>
+    <string name="cellid">Cell-ID</string>
+    <string name="network">Network</string>
+    <string name="wifi">Wi-Fi</string>
+    
+    <string name="resultats">Résultats</string>
+    <string name="pasresultat">Pas de résultat</string>
+    <string name="wait">Patientez svp</string>
+    <string name="cancel">Annuler</string>
+</resources>
